@@ -13,10 +13,10 @@ driver.get(url="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEbZk0DZoneGAA
 # login in your account
 log_in = driver.find_element_by_xpath("/html/body/main/div/div/form[2]/section/p/a").click()
 login_email = driver.find_element_by_id("login-email")
-login_email.send_keys("ksenia790@mail.ru")
+login_email.send_keys("youremail@mail.ru")
 
 login_pass = driver.find_element_by_id("login-password")
-login_pass.send_keys("hasbisait777")
+login_pass.send_keys("password")
 
 login_submit = driver.find_element_by_id("login-submit").click()
 
